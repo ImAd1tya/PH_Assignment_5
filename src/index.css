@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Trebuchet MS", "Segoe UI", sans-serif;
+
+  --color-page: #FFFFFF;
+  --color-signup: #D54DAF;
+  --color-hero :#FFFFFF;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-width: 320px;
+    color: var(--color-ink);
+    background-color: var(--color-page);
+    font-family: var(--font-display);
+  }
+}
