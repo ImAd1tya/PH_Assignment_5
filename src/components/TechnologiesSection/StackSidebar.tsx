@@ -40,8 +40,7 @@ const StackSidebar = ({ stack, onRemove, onRemoveAll }: StackSidebarProps) => {
                 onClick={() => onRemove(tech.id)}
                 className="text-gray-400 hover:text-red-500 transition cursor-pointer"
                 aria-label={`Remove ${tech.name}`}
-              >
-                ✕
+              >               
               </button>
             </div>
           ))}
