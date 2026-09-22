@@ -15,7 +15,7 @@ const Navbar = () => {
         </a>
 
         
-        <ul className="hidden md:flex items-center gap-8 text-sm font-medium text-[#374151]">
+        <ul className="hidden md:flex justify-center gap-8 text-sm font-medium text-[#374151]">
           <li className="text-pink-500 cursor-pointer">Home</li>
           <li className="cursor-pointer hover:text-pink-500 transition">Technologies</li>
           <li className="cursor-pointer hover:text-pink-500 transition">Projects</li>
