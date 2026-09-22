@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/shared/Navbar";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
-import Technologies from "./components/TechnologiesSection/technologies";
+import Technologies from "./components/TechnologiesSection/Technologies";
 import type { Technology } from "./components/types/Technologies";
 
 const fetchTechnologies = async (): Promise<Technology[]> => {
